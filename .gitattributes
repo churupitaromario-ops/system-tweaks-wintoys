@@ -1,0 +1,11 @@
+# See https://github.com/github/linguist
+# Text file normalization
+
+node_modules/* linguist-vendored
+docs/**/*.html linguist-vendored
+src/**/*.ts linguist-detectable
+src/**/*.tsx linguist-detectable
+*.png binary
+
+docs/** linguist-vendored
+*.woff binary
